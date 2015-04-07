@@ -12,9 +12,20 @@ import net.minecraftforge.common.util.ForgeDirection;
 public interface IPowerable {
 
     /**
-     * @param from - The direction the power is coming from
-     * @param amount - The amount of energy flowing, either in or out.
+     * @param from      - The direction the power is coming from
+     * @param amount    - The amount of energy flowing, either in or out.
      * @param direction - The flow of power
      */
     void onPowerTransfer(ForgeDirection from, int amount, PowerDirection direction);
+
+    /**
+     * @return The energy stored within the element
+     */
+    long getStoredEnergy();
+
+    /**
+     * @return The max energy an element can store
+     */
+    long getTotalEnergy();
+
 }
