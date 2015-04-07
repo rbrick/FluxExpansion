@@ -21,11 +21,11 @@ public interface IPowerable {
     /**
      * @return The energy stored within the element
      */
-    float getStoredEnergy();
+    int getStoredEnergy();
 
     /**
      * @return The max energy an element can store
      */
-    float getTotalEnergy();
+    int getTotalEnergy();
 
 }
