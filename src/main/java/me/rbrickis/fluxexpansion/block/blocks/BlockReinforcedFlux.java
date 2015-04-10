@@ -20,7 +20,7 @@ public class BlockReinforcedFlux extends FEBaseBlock {
         setHardness(50.0f);
         setResistance(2000.0F);
         setBlockName("reinforced.flux.crystal.block");
-        setBlockTextureName("fluxexpansion:reinforced_flux_crystal_block");
+        setBlockTextureName("flux_expansion:reinforced_flux_crystal_block");
         setCreativeTab(new FECreativeTab());
     }
 }
