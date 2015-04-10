@@ -12,7 +12,7 @@ import net.minecraft.item.Item;
 public class FECreativeTab extends CreativeTabs {
 
     public FECreativeTab() {
-        super("Flux Expansion");
+        super("FluxExpansion");
     }
 
     @Override

@@ -12,7 +12,5 @@ public class FECommonProxy  {
 
     public void register() {
         GameRegistry.registerBlock(Blocks.REINFORCED_FLUX_CRYSTAL_BLOCK, "reinforced_flux_crystal_block");
-
-
     }
 }

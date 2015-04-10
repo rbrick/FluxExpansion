@@ -3,9 +3,6 @@
   "name": "Flux Expansion",
   "description": "A addon for ThermalExpansion that adds higher tier, multi-block machines to the game.",
   "version": "0.0.1",
-  "mcversion": "1.7.10",
-  "url": "http://rbrickis.me",
-  "dependencies": [
-    "MinecraftForge,CoFHCore,ThermalFoundation,ThermalExpansion"
-  ]
+  "mcversion": "$mcversion",
+  "url": "http://rbrickis.me"
 }
