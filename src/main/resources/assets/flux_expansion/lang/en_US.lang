@@ -1,5 +1,5 @@
 # Blocks
-tile.reinforced.flux.crystal.block.name=Reinforced Flux Crystal Block
+tile.flux_expansion:machinecasing.name=Machine Casing
 
 # Creative Tabs
 itemGroup.FluxExpansion=Flux Expansion

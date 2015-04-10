@@ -10,17 +10,17 @@ import net.minecraft.block.material.Material;
  * <p/>
  * Project: Flux Expansion
  *
- * Essentially the same as obsidian. Crafted with 4 obsidian and 4 diamonds surrounding a Flux Crystal Block
+ * Essentially the same as obsidian. Crafted with 4 obsidian and 4 flux crystals surrounding a Fluxed Electrum Block.
+ * Used to make the machine multiblocks, and used in some recipes
  */
-public class BlockReinforcedFlux extends FEBaseBlock {
+public class BlockMachineCasing extends FEBaseBlock {
 
-    public BlockReinforcedFlux() {
+    public BlockMachineCasing() {
         super(Material.iron);
         setStepSound(Block.soundTypeStone);
         setHardness(50.0f);
         setResistance(2000.0F);
-        setBlockName("reinforced.flux.crystal.block");
-        setBlockTextureName("flux_expansion:reinforced_flux_crystal_block");
+        setBlockName("machineCasing");
         setCreativeTab(new FECreativeTab());
     }
 }

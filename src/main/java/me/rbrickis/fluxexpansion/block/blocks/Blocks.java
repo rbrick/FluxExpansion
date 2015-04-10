@@ -9,5 +9,5 @@ import net.minecraft.block.Block;
  */
 public class Blocks {
 
-    public static final Block REINFORCED_FLUX_CRYSTAL_BLOCK = new BlockReinforcedFlux();
+    public static final Block MACHINE_CASING = new BlockMachineCasing();
 }

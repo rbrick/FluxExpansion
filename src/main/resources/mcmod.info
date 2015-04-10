@@ -1,8 +1,10 @@
-{
-  "modid": "flux_expansion",
-  "name": "Flux Expansion",
-  "description": "A addon for ThermalExpansion that adds higher tier, multi-block machines to the game.",
-  "version": "0.0.1",
-  "mcversion": "$mcversion",
-  "url": "http://rbrickis.me"
-}
+[
+  {
+    "modid": "flux_expansion",
+    "name": "Flux Expansion",
+    "description": "A addon for ThermalExpansion that adds higher tier, multi-block machines to the game.",
+    "version": "0.0.1",
+    "mcversion": "$mcversion",
+    "url": "http://rbrickis.me"
+  }
+]

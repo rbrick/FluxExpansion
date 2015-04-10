@@ -12,7 +12,7 @@ import me.rbrickis.fluxexpansion.proxy.FECommonProxy;
  * <p/>
  * Project: Flux Expansion
  */
-@Mod(modid = "flux_expansion", name = "Flux Expansion", version = "0.0.1")
+@Mod(modid = FluxExpansion.MOD_ID, name = FluxExpansion.MOD_NAME, version = FluxExpansion.MOD_VERSION)
 public class FluxExpansion {
 
     @Mod.Instance("flux_expansion")
@@ -21,6 +21,9 @@ public class FluxExpansion {
     @SidedProxy(clientSide = "me.rbrickis.fluxexpansion.proxy.FEClientProxy", serverSide = "me.rbrickis.fluxexpansion.proxy.FECommonProxy")
     public static FECommonProxy proxy;
 
+    public static final String MOD_ID = "flux_expansion";
+    public static final String MOD_NAME = "Flux Expansion";
+    public static final String MOD_VERSION = "0.0.1";
 
     @Mod.EventHandler
     public void onPreInit(FMLPreInitializationEvent event) {

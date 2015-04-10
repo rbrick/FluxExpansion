@@ -17,6 +17,6 @@ public class FECreativeTab extends CreativeTabs {
 
     @Override
     public Item getTabIconItem() {
-        return Item.getItemFromBlock(Blocks.REINFORCED_FLUX_CRYSTAL_BLOCK);
+        return Item.getItemFromBlock(Blocks.MACHINE_CASING);
     }
 }
