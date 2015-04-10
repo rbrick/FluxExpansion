@@ -1,0 +1,5 @@
+# Blocks
+tile.reinforced.flux.crystal.block.name=Reinforced Flux Crystal Block
+
+# Creative Tabs
+itemGroup.FluxExpansion=Flux Expansion
