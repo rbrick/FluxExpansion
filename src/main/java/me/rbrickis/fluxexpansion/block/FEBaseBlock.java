@@ -30,5 +30,6 @@ public class FEBaseBlock extends Block {
 
     public String getUnwrappedBlockName(String unlocalizedName) {
           return unlocalizedName.substring(unlocalizedName.indexOf('.') + 1).toLowerCase();
+
     }
 }

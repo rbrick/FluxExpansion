@@ -16,4 +16,6 @@ public interface IMultiBlock {
      */
     List<Block> getBlocks();
 
+    boolean doesMatch();
+
 }
